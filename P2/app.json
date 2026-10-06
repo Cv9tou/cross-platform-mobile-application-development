@@ -1,0 +1,16 @@
+{
+  "expo": {
+    "name": "Weather Feed",
+    "slug": "weather-feed",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "ua.duan.weatherfeed",
+      "predictiveBackGestureEnabled": false
+    }
+  }
+}
