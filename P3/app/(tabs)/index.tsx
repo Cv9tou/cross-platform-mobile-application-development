@@ -11,7 +11,7 @@ function CityCard({ city }: { city: City }) {
   return (
     <Pressable
       style={styles.card}
-     onPress={() => router.push('/city/aaa')}
+     onPress={() => router.push(cityPath(city.id))}
     >
       <View>
         <Text style={styles.name}>{city.name}</Text>
